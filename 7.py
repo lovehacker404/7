@@ -343,8 +343,7 @@ def browser():
         br.set_cookiejar(cookielib.LWPCookieJar())
         br.set_handle_redirect(True)
         br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
-        br.addheaders = [('User-Agent','Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-G532G Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/9.4 Chrome/67.0.3396.87 Mobile Safari/537.36')]
-')]
+        br.addheaders = [('User-Agent','Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-G532G Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/9.4 Chrome/67.0.3396.87 Mobile Safari/537.36')]')]
 
 def datacount():
         global fid_bgroups,fid_bfriend
